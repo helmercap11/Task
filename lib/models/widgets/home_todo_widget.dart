@@ -13,7 +13,7 @@ class HomeTodo extends StatelessWidget {
       padding: EdgeInsets.all(10),
       height: 100,
      decoration: BoxDecoration(
-       color: redColor,
+       color: panelColor,
        borderRadius: BorderRadius.all(Radius.circular(10)),
        boxShadow: [
          new BoxShadow(
@@ -24,7 +24,7 @@ class HomeTodo extends StatelessWidget {
      ),
       child: Row(
         children: <Widget>[
-          Radio(value: null, groupValue: null, onChanged: null),
+          Radio(value: null, groupValue: null, onChanged: null,),
           Column(
             children: <Widget>[
               Text(title, style: darkTodoTitle,)
